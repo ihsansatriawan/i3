@@ -116,6 +116,9 @@ bindsym $mod+Shift+0 move container to workspace 10
 # Print screen
 bindsym $mod+p exec gnome-screenshot --interactive
 
+# lock screen
+bindsym $mod+c exec gnome-screensaver-command --lock
+
 # start tray applications
 exec --no-startup-id gnome-settings-daemon
 exec --no-startup-id gnome-sound-applet
